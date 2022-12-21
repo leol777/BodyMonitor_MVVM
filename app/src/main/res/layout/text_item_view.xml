@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_button_shape"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/info_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/UpperBP" />
+
+    <TextView
+        android:id="@+id/info_value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/info_title1"
+        app:layout_constraintTop_toTopOf="@id/info_title1"
+        android:layout_marginStart="@dimen/TextPadding"
+        android:text="121"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/info_unit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/info_value1"
+        app:layout_constraintTop_toTopOf="@id/info_title1"
+        android:text="@string/BPUnit"/>
+
+    <TextView
+        android:id="@+id/info_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_title1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/LowerBP"/>
+
+    <TextView
+        android:id="@+id/info_value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/info_title2"
+        app:layout_constraintTop_toTopOf="@id/info_title2"
+        android:layout_marginStart="@dimen/TextPadding"
+        android:text="121"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/info_unit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/info_value2"
+        app:layout_constraintTop_toTopOf="@id/info_title2"
+        android:text="@string/BPUnit"/>
+    
+    <TextView
+        android:id="@+id/date_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/info_unit1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/date"
+        android:layout_marginStart="@dimen/TextPadding"/>
+    
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/date_hint"
+        app:layout_constraintStart_toEndOf="@id/date_hint"
+        android:layout_marginStart="@dimen/TextPadding"/>
+
+
+    <Button
+        android:id="@+id/item_edit_btn"
+        android:layout_width="@dimen/RecordTextSize"
+        android:layout_height="@dimen/RecordTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/item_delete_btn"
+        android:background="@drawable/ic_baseline_edit_24"
+        android:layout_marginEnd="@dimen/TextPadding"/>
+
+    <Button
+        android:id="@+id/item_delete_btn"
+        android:layout_width="@dimen/RecordTextSize"
+        android:layout_height="@dimen/RecordTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_edit_btn"
+        android:background="@drawable/ic_baseline_delete_forever_24"
+        android:layout_marginEnd="@dimen/TextPadding"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BodyMonitor</string>
+    <string name="RecordBloopPressure">记录血压</string>
+    <string name="RecordUricAcid">记录尿酸</string>
+    <string name="ViewRecord">查看记录</string>
+    <string name="ViewGraph">查看图表</string>
+    <string name="ViewText">查看文字</string>
+    <string name="ViewBloopPressure">查看血压记录</string>
+    <string name="ViewUricAcid">查看尿酸记录</string>
+    <string name="UpperBP">上压</string>
+    <string name="LowerBP">下压</string>
+    <string name="UricAcid">尿酸</string>
+    <string name="BloodSugar">血糖</string>
+    <string name="BPUnit">mmHg</string>
+    <string name="UAUnit">μmol/L</string>
+    <string name="BSUnit">mmol/L</string>
+    <string name="getWeather">获取天气</string>
+
+    <string name="date">日期</string>
+
+
+    <dimen name="RecordTextSize">30dp</dimen>
+    <dimen name="TextPadding">15dp</dimen>
+    <dimen name="TextBoxWidth">45dp</dimen>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/drawable/data_type_radio_button_text_color.xml" value="0.225" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/drawable/graph_radio_button.xml" value="0.225" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/drawable/main_button_shape.xml" value="0.236" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/drawable/text_box_shape.xml" value="0.236" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/drawable/text_radio_button.xml" value="0.225" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/drawable/tool_bar_menu.xml" value="0.236" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/activity_record_bp.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/activity_record_bp2.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/activity_record_ua.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/activity_record_ua2.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/activity_view_record.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/button_background.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/fragment_view_b_p_graph.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/fragment_view_b_p_text.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/fragment_view_u_a_graph.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/fragment_view_u_a_text.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/record_tool_bar.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/text_item_view.xml" value="0.2259963768115942" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/tool_bar.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/layout/tool_bar_menu.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/menu/record_tool_bar_menu.xml" value="0.109375" />
+        <entry key="..\:/Users/86131/AndroidStudioProjects/BodyMonitor/app/src/main/res/menu/tool_bar_menu.xml" value="0.109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
